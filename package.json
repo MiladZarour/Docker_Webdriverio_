@@ -1,0 +1,23 @@
+{
+  "name": "docker_webdriverio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.js",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.16.5",
+    "wdio-image-comparison-service": "^5.0.3"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.16.5",
+    "@wdio/mocha-framework": "^8.16.3",
+    "@wdio/spec-reporter": "^8.16.3",
+    "wdio-docker-service": "^3.2.1"
+  }
+}

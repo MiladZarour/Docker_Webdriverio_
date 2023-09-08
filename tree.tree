@@ -1,0 +1,21 @@
+📦Docker_Webdriverio
+ ┃ ┗ 📜.package-lock.json
+ ┣ 📂test
+ ┃ ┣ 📂pageobjects
+ ┃ ┃ ┣ 📜login.page.js
+ ┃ ┃ ┣ 📜page.js
+ ┃ ┃ ┗ 📜secure.page.js
+ ┃ ┗ 📂specs
+ ┃ ┃ ┣ 📜test.e2e copy 2.js
+ ┃ ┃ ┣ 📜test.e2e copy 3.js
+ ┃ ┃ ┣ 📜test.e2e copy 4.js
+ ┃ ┃ ┣ 📜test.e2e copy.js
+ ┃ ┃ ┗ 📜test.e2e.js
+ ┣ 📜.gitignore
+ ┣ 📜docker-compose.yml
+ ┣ 📜dockerfile
+ ┣ 📜package-lock.json
+ ┣ 📜package.json
+ ┣ 📜Readme.md
+ ┣ 📜tree.tree
+ ┗ 📜wdio.conf.js
